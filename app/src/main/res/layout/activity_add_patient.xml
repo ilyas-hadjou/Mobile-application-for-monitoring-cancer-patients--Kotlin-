@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddPatient"
+        android:id="@+id/view_add_patient"
+>
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/tool_bar_add_patient"
+            android:textAlignment="center"
+            style="@style/toolBarTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/rendez_vous"/>
+
+    <TextView
+            android:text="@string/add_patient_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_ajout_doc"
+            style="@style/textBlodGrisDark"
+            android:layout_marginTop="49dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp" android:textAlignment="viewStart"/>
+    <TextView
+            android:text="@string/code_ptient"
+            android:textAlignment="center"
+            android:elevation="2dp"
+            style="@style/textBlodGrisDark"
+            android:background="@drawable/code_generated_ui"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/code" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/info_ajout_doc"
+            android:textSize="30sp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+            android:text="@string/cod"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:elevation="2dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            style="@style/text_Button"
+            android:background="@drawable/costum_button"
+            android:id="@+id/genere_patient_button"
+            app:layout_constraintBottom_toBottomOf="@+id/code"
+            app:layout_constraintStart_toEndOf="@+id/code" android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/info_ajout_doc"/>
+    <Button
+            android:text="@string/ajouter_patient"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/text_Button"
+            android:background="@drawable/costum_button_pressed"
+            android:id="@+id/ajouter_patient_button" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/code"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

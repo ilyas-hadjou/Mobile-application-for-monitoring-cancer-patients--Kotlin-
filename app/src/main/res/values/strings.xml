@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sun Hope App</string>
+
+    <!-- TODO: add doctor string -->
+    <string name="ajouter_doc">Ajouter</string>
+    <string name="code_doc">######</string>
+    <string name="cod_générer">générer</string>
+    <string name="tool_bar_add_doc">Ajouter un docteur</string>
+    <string name="add_doc_info">-Vous n\'avez pas besoin d\'entrer les informations du médecin \n\n-Il suffit de créer
+        le code et de le lui donner
+    </string>
+
+    <!-- TODO: add patien string -->
+    <string name="ajouter_patient">Ajouter</string>
+    <string name="code_ptient">####</string>
+    <string name="cod">générer</string>
+    <string name="tool_bar_add_patient">Ajouter un patient</string>
+    <string name="add_patient_info">-Vous n\'avez pas besoin d\'entrer les informations du patient \n\n-Il suffit de créer
+        le code et de le lui donner
+    </string>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:background="@color/white"
+>
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SignIn"
+            android:background="@color/white">
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="SunHope"
+                android:textAlignment="center"
+                style="@style/toolBarTitle"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:id="@+id/rendez_vous"/>
+
+
+        <ImageView
+                android:src="@drawable/signinphoto"
+                android:layout_width="0dp"
+                android:layout_height="230dp"
+                android:id="@+id/image_From"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@+id/rendez_vous"/>
+
+        <TextView
+                android:text="Sign in pour continuer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textContenu1"
+                style="@style/textBlodGrisDark"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:fontFamily="@font/roboto"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/image_From"/>
+
+        <EditText
+
+                android:id="@+id/emailSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:hint="voter Email"
+                android:drawableStart="@drawable/ic_email_blue"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:drawablePadding="6dp"
+                android:background="@drawable/edittextsign"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/signIn1"/>
+
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/mdpSignIn"
+                android:hint="Mot de passe"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:drawablePadding="6dp"
+                android:drawableStart="@drawable/ic_https_blue"
+                android:background="@drawable/edittextsign"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/emailSignIn"/>
+
+        <Button
+                android:text="Sign in"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:id="@+id/signIn1"
+                style="@style/textButton"
+                android:background="@drawable/signinbutton2"
+                android:enabled="false"
+                android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textContenu1"
+                app:layout_constraintStart_toEndOf="@+id/textContenu1" android:layout_marginStart="8dp"/>
+        <Button
+                android:text="Sign Up"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:id="@+id/signUp2"
+                style="@style/textButton"
+                android:background="@drawable/signinbutton"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="48dp"
+                app:layout_constraintTop_toBottomOf="@+id/forgetMdp"
+        />
+        <Button
+                android:text="Mot de passe oublié ?"
+                android:textColor="@color/blueyeti"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:id="@+id/forgetMdp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:background="@drawable/forgetmdp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/mdpSignIn"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

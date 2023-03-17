@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37623537876",
+    "firebase_url": "https://sun-hope-51129.firebaseio.com",
+    "project_id": "sun-hope-51129",
+    "storage_bucket": "sun-hope-51129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37623537876:android:35dd8a2b08bf9d35",
+        "android_client_info": {
+          "package_name": "apps.hadjou.ilyas.sunhopeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37623537876-v056capg4odj9p2imdm9elfik8a18ah4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apps.hadjou.ilyas.sunhopeapp",
+            "certificate_hash": "d82802354d4a948d7e350114cfe779654963e0af"
+          }
+        },
+        {
+          "client_id": "37623537876-m7q2u8g9rdpd115u2rv9pn61dn70hvve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJz4QuuqeopVjQiFjjIkZ6ZOiwPPXqGmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37623537876-m7q2u8g9rdpd115u2rv9pn61dn70hvve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

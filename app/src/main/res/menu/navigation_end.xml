@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/navigation_chat"
+            android:title="Chat"
+            android:icon="@drawable/ic_message_gris"
+    />
+    <item
+            android:id="@+id/navigation_home"
+          android:title="Home"
+          android:icon="@drawable/ic_home_gris"/>
+    <item
+
+            android:id="@+id/navigation_id"
+            android:title="Edit"
+            android:icon="@drawable/ic_person_gris"/>
+
+
+</menu>
